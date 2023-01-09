@@ -7,38 +7,39 @@
     
 } */
 
-header::before{
+header::before {
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Montserrat', sans-serif;
-    background: url(IMG/alberto-triano-rL7BHmjUV50-unsplash.jpg) ;
-    content:"";
+    background: url(IMG/alberto-triano-rL7BHmjUV50-unsplash.jpg);
+    content: "";
     position: absolute;
-   left: 0%;
-   top: 0%;
+    left: 0%;
+    top: 0%;
     width: 100%;
     height: 140%;
     z-index: -1;
     opacity: 0.8;
 }
-.main_h1{
+
+.main_h1 {
     font-family: 'Balsamiq Sans', cursive;
-font-family: 'Montserrat', sans-serif;
-     background-color: rgb(248, 232, 57);
-     border: 2px solid rgb(248, 232, 57);
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(248, 232, 57);
+    border: 2px solid rgb(248, 232, 57);
 
-     position: fixed;
-     text-align: center;
-     width: 100vw;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
 }
 
 
-.head_container{
-/* 
+.head_container {
+    /* 
     border: 2px solid black; */
-    
+
 }
 
-.box{
+.box {
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
@@ -53,16 +54,17 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-.para{
+.para {
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Montserrat', sans-serif;
 
     text-align: center;
     text-decoration: underline;
     font-weight: bolder;
-    
+
 }
-.form{
+
+.form {
     border: 2px solid black;
     width: 37%;
     margin-top: 100px;
@@ -73,8 +75,8 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 100px;
 }
 
-.form_h1{
-    background-color:aqua;
+.form_h1 {
+    background-color: aqua;
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
@@ -82,7 +84,7 @@ font-family: 'Montserrat', sans-serif;
     align-items: center;
 }
 
-.form input{
+.form input {
     border: 2px solid black;
     text-align: center;
     align-items: center;
@@ -92,35 +94,40 @@ font-family: 'Montserrat', sans-serif;
 
 
 }
-.btn{
 
-    font-size: 18px;
+.btn {
+
+    font-size: 20px;
     background: none;
     color: rgb(0, 0, 0);
-    padding: 4px 134px;
+    padding: 6px 134px;
     /* border: 2px solid gray; */
     border-radius: 10px;
 
 }
-.btn:hover{
 
-    font-size: 18px ;
+.btn:hover {
+
+    font-size: 18px;
     background-color: black;
     color: gray;
 }
-.hr_{
+
+.hr_ {
 
     border: 2px solid black;
 }
-.footer{
+
+.footer {
     position: absolute;
-   left: 0%;
-   right: 0%;
+    left: 0%;
+    right: 0%;
     background-color: orange;
     /* border: 2px solid black; */
     align-items: center;
 }
-.social{
+
+.social {
     border: 2px solid black;
     border-radius: 10px;
     margin-left: 35%;
@@ -128,25 +135,24 @@ font-family: 'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
 }
-.footer .a{
+
+.footer .a {
     align-items: center;
     border: 1px solid black;
 }
 
-.footer .insta{
+.footer .insta {
     margin-left: 10px;
     height: 50px;
 }
 
-.footer .twitter{
+.footer .twitter {
     margin-left: 200px;
     height: 50px;
 }
 
-.footer .reddit{
+.footer .reddit {
     margin-left: 200px;
     height: 50px;
     margin-right: 10px;
 }
-
-
