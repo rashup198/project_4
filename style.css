@@ -6,7 +6,7 @@
 header::before{
     font-family: 'Balsamiq Sans', cursive;
     font-family: 'Montserrat', sans-serif;
-    background: url(img/contact_banner.jpg) repeat;
+    background: url(https://images.unsplash.com/photo-1503524921528-8f5fa912ea75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) repeat;
     content:"";
     position: absolute;
     top: 0px;
@@ -109,3 +109,36 @@ font-family: 'Montserrat', sans-serif;
 
     border: 2px solid black;
 }
+.footer{
+    background-color: orange;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+.social{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+.footer .a{
+    align-items: center;
+}
+
+.footer .insta{
+    margin-left: 10px;
+    height: 50px;
+}
+
+.footer .twitter{
+    margin-left: 100px;
+    height: 50px;
+}
+
+.footer .reddit{
+    margin-left: 100px;
+    height: 50px;
+}
+
+
