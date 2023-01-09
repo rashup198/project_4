@@ -117,13 +117,14 @@ font-family: 'Montserrat', sans-serif;
 .social{
     border: 2px solid black;
     border-radius: 10px;
-    margin-left: 40%;
+    margin-left: 35%;
     display: inline-block;
     align-items: center;
     text-align: center;
 }
 .footer .a{
     align-items: center;
+    border: 1px solid black;
 }
 
 .footer .insta{
@@ -132,13 +133,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .footer .twitter{
-    margin-left: 100px;
+    margin-left: 200px;
     height: 50px;
 }
 
 .footer .reddit{
-    margin-left: 100px;
+    margin-left: 200px;
     height: 50px;
+    margin-right: 10px;
 }
 
 
