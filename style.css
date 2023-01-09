@@ -3,22 +3,26 @@ body{
     background: url(img/contact_banner.jpg);
 }
 h1 {
-     background-color: aqua;
-     border: 2px solid aqua;
+     background-color: rgb(248, 232, 57);
+     border: 2px solid rgb(248, 232, 57);
+     position: fixed;
      text-align: center;
      width: 100vw;
 }
 
 .head_container{
-
-    border: 2px solid black;
+/* 
+    border: 2px solid black; */
+    
 }
 
 .box{
+    margin: 10px;
+    margin-top: 100px;
     border: 3px solid violet;
     background-color: aqua;
     display: inline-block;
-    width: 33%;
+    width: 31%;
     box-sizing: border-box;
 }
 .para{
